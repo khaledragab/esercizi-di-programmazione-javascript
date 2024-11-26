@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var anno_corrente = 2018 ; 
+var anno_di_nascità = 1991 ; 
+var età = anno_corrente - anno_di_nascità; 
+var anno_mancante = 100 - età ;
+console.log("anno corrente = " + anno_corrente + ", anno di nascità = " + anno_di_nascità 
+            + " , eta = " + età + " , anno mancante = " + anno_mancante ); 
